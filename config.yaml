@@ -1,0 +1,5 @@
+textFormat: "火%s%s\r\n团购价%s元,市场价%s元\r\n\r\n" # 处理成什么格式的文本""内填写 \r\n为换行 %s为占位符 会顺序赋值为excel一行里面的所有参数 不用变
+fileName: "./data.txt"  # 处理后生成的默认文件名 ./为当前目录
+excelFileName: "data.xlsx" # 要处理的excel默认文件名
+excelCellStart: 1 # 要处理的excel表格的开始列 从0开始
+excelCellEnd: 5 # 要处理的excel表格的结束列
